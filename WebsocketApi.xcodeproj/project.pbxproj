@@ -32,6 +32,7 @@
 		0DB9DFE2195A764300CE89CD /* OHHTTPStubsResponse+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB9DFDC195A764300CE89CD /* OHHTTPStubsResponse+JSON.m */; };
 		0DB9DFE3195A764300CE89CD /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB9DFDE195A764300CE89CD /* OHHTTPStubsResponse.m */; };
 		A61BB36C9121D5EF8228A6A2 /* Pods_WebsocketApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78527D389E0D1F5E5BF06D33 /* Pods_WebsocketApi.framework */; };
+		D57864A5AF1BD9128D9C3842 /* Pods_WebsocketApiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3807F3357F6AE0DF34692A9B /* Pods_WebsocketApiTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,8 +89,11 @@
 		0DB9DFDC195A764300CE89CD /* OHHTTPStubsResponse+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OHHTTPStubsResponse+JSON.m"; sourceTree = "<group>"; };
 		0DB9DFDD195A764300CE89CD /* OHHTTPStubsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHHTTPStubsResponse.h; sourceTree = "<group>"; };
 		0DB9DFDE195A764300CE89CD /* OHHTTPStubsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHHTTPStubsResponse.m; sourceTree = "<group>"; };
+		3807F3357F6AE0DF34692A9B /* Pods_WebsocketApiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebsocketApiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D8E65FC326BFBB35D0F379 /* Pods-WebsocketApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebsocketApi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebsocketApi/Pods-WebsocketApi.debug.xcconfig"; sourceTree = "<group>"; };
 		78527D389E0D1F5E5BF06D33 /* Pods_WebsocketApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebsocketApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9EFD6A49A065EA719A8583 /* Pods-WebsocketApiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebsocketApiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebsocketApiTests/Pods-WebsocketApiTests.release.xcconfig"; sourceTree = "<group>"; };
+		BAF5132C7E403480C684965C /* Pods-WebsocketApiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebsocketApiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebsocketApiTests/Pods-WebsocketApiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BCA8C1E71CC125B259A35223 /* Pods-WebsocketApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebsocketApi.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebsocketApi/Pods-WebsocketApi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +120,7 @@
 				0D3D9D5019471BDA00561197 /* libWebsocketApi.a in Frameworks */,
 				0D3D9D4A19471BDA00561197 /* XCTest.framework in Frameworks */,
 				0D3D9D4B19471BDA00561197 /* Foundation.framework in Frameworks */,
+				D57864A5AF1BD9128D9C3842 /* Pods_WebsocketApiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +156,7 @@
 				0D3D9D3B19471BDA00561197 /* Foundation.framework */,
 				0D3D9D4919471BDA00561197 /* XCTest.framework */,
 				78527D389E0D1F5E5BF06D33 /* Pods_WebsocketApi.framework */,
+				3807F3357F6AE0DF34692A9B /* Pods_WebsocketApiTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -219,6 +225,8 @@
 			children = (
 				71D8E65FC326BFBB35D0F379 /* Pods-WebsocketApi.debug.xcconfig */,
 				BCA8C1E71CC125B259A35223 /* Pods-WebsocketApi.release.xcconfig */,
+				BAF5132C7E403480C684965C /* Pods-WebsocketApiTests.debug.xcconfig */,
+				8A9EFD6A49A065EA719A8583 /* Pods-WebsocketApiTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -249,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D3D9D5E19471BDB00561197 /* Build configuration list for PBXNativeTarget "WebsocketApiTests" */;
 			buildPhases = (
+				2F7DE00F2791AA8CA57BBCEA /* [CP] Check Pods Manifest.lock */,
 				0D3D9D4419471BDA00561197 /* Sources */,
 				0D3D9D4519471BDA00561197 /* Frameworks */,
 				0D3D9D4619471BDA00561197 /* Resources */,
+				394C66A3C3C14DA160ECF82B /* [CP] Embed Pods Frameworks */,
+				D2E8648AEB323B6416ED3A87 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -317,6 +328,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		2F7DE00F2791AA8CA57BBCEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		394C66A3C3C14DA160ECF82B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebsocketApiTests/Pods-WebsocketApiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		74B2C29E59AA4304CB8F4984 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,6 +371,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebsocketApi/Pods-WebsocketApi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2E8648AEB323B6416ED3A87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebsocketApiTests/Pods-WebsocketApiTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -413,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -444,7 +500,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -491,6 +547,7 @@
 		};
 		0D3D9D5F19471BDB00561197 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF5132C7E403480C684965C /* Pods-WebsocketApiTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -518,6 +575,7 @@
 		};
 		0D3D9D6019471BDB00561197 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A9EFD6A49A065EA719A8583 /* Pods-WebsocketApiTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
