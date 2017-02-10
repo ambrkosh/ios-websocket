@@ -1,16 +1,28 @@
-ios-websocketapi
-================
-High level SockJS/Vertx client api for iOS.
-Use this to enable communication with a vertx server with sockjs like functionality through the use of websockets.
+# WebSocketApiObjC
 
-Installation Instructions:
-There are 2 ways to add this to your project:
+[![Version](https://img.shields.io/cocoapods/v/WebSocketApiObjC.svg?style=flat)](http://cocoapods.org/pods/WebSocketApiObjC)
+[![License](https://img.shields.io/cocoapods/l/WebSocketApiObjC.svg?style=flat)](http://cocoapods.org/pods/WebSocketApiObjC)
+[![Platform](https://img.shields.io/cocoapods/p/WebSocketApiObjC.svg?style=flat)](http://cocoapods.org/pods/WebSocketApiObjC)
 
-1. Include this project as a subproject in your iOS project and use libWebsocketApi in your link library.
-You will need to add -ObjC to your "other linker flags" build options.  If that does not work, try adding -all_load as well.
+## Example
 
-2. Build and add the libWebsocketApi.a and the header files directly to your iOS project.  
-You will need to add -all_load to your "other linker flags" build options.
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-This project uses the SocketRocket api from https://github.com/square/SocketRocket
+## Requirements
 
+## Installation
+
+WebSocketApiObjC is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "WebSocketApiObjC"
+```
+
+## Author
+
+David Ye, ambrkosh@gmail.com
+
+## License
+
+WebSocketApiObjC is available under the MIT license. See the LICENSE file for more info.
