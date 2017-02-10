@@ -1,0 +1,9 @@
+use_frameworks!
+target 'WebSocketApiObjC_Tests' do
+  pod 'WebSocketApiObjC', :path => '../'
+  
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'SocketRocket', '~> 0.5.1'
+  pod 'OHHTTPStubs', '~> 5.2.3'
+end

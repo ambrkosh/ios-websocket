@@ -1,6 +1,6 @@
 //
 //  Utils.h
-//  OinkerClient
+//  Various utils for SockJS Client use
 //
 //  Created by Ye David on 6/4/14.
 //  Copyright (c) 2014 All rights reserved.
