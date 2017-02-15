@@ -1,0 +1,3 @@
+language: objective-c
+xcode_project: example/WebSocketApiObjC.xcodeproj
+xcode_scheme: WebSocketApiObjC-Example
