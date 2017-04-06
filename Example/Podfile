@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '10.1'
+platform :ios, '10.2'
 
 use_frameworks!
 target 'WebSocketApiObjC_Tests' do
