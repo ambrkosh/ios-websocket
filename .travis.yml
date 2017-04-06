@@ -4,6 +4,6 @@ xcode_workspace: Example/WebSocketApiObjC.xcworkspace
 xcode_scheme: WebSocketApiObjC-Example
 podfile: Example/Podfile
 script:
- - xcodebuild test -workspace Example/WebSocketApiObjC.xcworkspace -scheme WebSocketApiObjC-Example -destination 'platform=Simulator,name=iPhone 7,OS=10.2'
+ - xcodebuild test -workspace Example/WebSocketApiObjC.xcworkspace -scheme WebSocketApiObjC-Example -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.2'
 before_install: 
  - pod update --project-directory=Example/
