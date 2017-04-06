@@ -1,3 +1,6 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.1'
+
 use_frameworks!
 target 'WebSocketApiObjC_Tests' do
   pod 'WebSocketApiObjC', :path => '../'
