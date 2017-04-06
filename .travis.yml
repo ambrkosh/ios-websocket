@@ -3,4 +3,4 @@ xcode_workspace: Example/WebSocketApiObjC.xcworkspace
 xcode_scheme: WebSocketApiObjC-Example
 podfile: Example/Podfile
 before_install: 
- - pod update
+ - pod update --project-directory=Example/
