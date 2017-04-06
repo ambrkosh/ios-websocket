@@ -2,4 +2,5 @@ language: objective-c
 xcode_workspace: Example/WebSocketApiObjC.xcworkspace
 xcode_scheme: WebSocketApiObjC-Example
 podfile: Example/Podfile
-before_install: - pod update
+before_install: 
+ - pod update
