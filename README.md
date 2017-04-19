@@ -1,6 +1,6 @@
 # WebSocketApiObjC
 
-[![CI Status](http://img.shields.io/travis/ambrkosh/WebSocketApi.svg?style=flat)](https://travis-ci.org/ambrkosh/ios-websocket)
+[![CI Status](https://travis-ci.org/ambrkosh/ios-websocket.svg?branch=master)](https://travis-ci.org/ambrkosh/ios-websocket)
 [![Version](https://img.shields.io/cocoapods/v/WebSocketApiObjC.svg?style=flat)](http://cocoapods.org/pods/WebSocketApiObjC)
 [![License](https://img.shields.io/cocoapods/l/WebSocketApiObjC.svg?style=flat)](http://cocoapods.org/pods/WebSocketApiObjC)
 [![Platform](https://img.shields.io/cocoapods/p/WebSocketApiObjC.svg?style=flat)](http://cocoapods.org/pods/WebSocketApiObjC)
