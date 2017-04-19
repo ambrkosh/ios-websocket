@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0D970DFD1E4D6421005EC4DA /* WebsocketApiTestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D970DF61E4D6421005EC4DA /* WebsocketApiTestHelper.m */; };
-		0D970DFE1E4D6421005EC4DA /* WebsocketApiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D970DF71E4D6421005EC4DA /* WebsocketApiTests.m */; };
+		0D970DFE1E4D6421005EC4DA /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D970DF71E4D6421005EC4DA /* Tests.m */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		878738442EE605B96D428400 /* Pods_WebSocketApiObjC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E01F25CED4763EB0C8DE7FF /* Pods_WebSocketApiObjC_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D970DF51E4D6421005EC4DA /* WebsocketApiTestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsocketApiTestHelper.h; sourceTree = "<group>"; };
 		0D970DF61E4D6421005EC4DA /* WebsocketApiTestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsocketApiTestHelper.m; sourceTree = "<group>"; };
-		0D970DF71E4D6421005EC4DA /* WebsocketApiTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsocketApiTests.m; sourceTree = "<group>"; };
+		0D970DF71E4D6421005EC4DA /* Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		0E01F25CED4763EB0C8DE7FF /* Pods_WebSocketApiObjC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebSocketApiObjC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BC94546F5A3E778CF950CD /* Pods-WebSocketApiObjC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebSocketApiObjC_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebSocketApiObjC_Tests/Pods-WebSocketApiObjC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		54E371DA5713514C476E18D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -31,7 +30,6 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		A7BB38DE2A5FFC918BD22998 /* Pods-WebSocketApiObjC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebSocketApiObjC_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebSocketApiObjC_Tests/Pods-WebSocketApiObjC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DE624C194ED803584A84CF70 /* WebSocketApiObjC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WebSocketApiObjC.podspec; path = ../WebSocketApiObjC.podspec; sourceTree = "<group>"; };
@@ -89,8 +87,7 @@
 			children = (
 				0D970DF51E4D6421005EC4DA /* WebsocketApiTestHelper.h */,
 				0D970DF61E4D6421005EC4DA /* WebsocketApiTestHelper.m */,
-				0D970DF71E4D6421005EC4DA /* WebsocketApiTests.m */,
-				6003F5BB195388D20070C39A /* Tests.m */,
+				0D970DF71E4D6421005EC4DA /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -240,9 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 				0D970DFD1E4D6421005EC4DA /* WebsocketApiTestHelper.m in Sources */,
-				0D970DFE1E4D6421005EC4DA /* WebsocketApiTests.m in Sources */,
+				0D970DFE1E4D6421005EC4DA /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
