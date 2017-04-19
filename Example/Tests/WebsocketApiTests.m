@@ -142,14 +142,14 @@
     }
 }
 
-- (void)testWebSocketConnectionOpen {
+/*- (void)testWebSocketConnectionOpen {
     isTestingWebsocketConnectionOpen = YES;
     [websocketTestHelper testOpenConnection];
     while (isTestingWebsocketConnectionOpen) {
         [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode
                                  beforeDate:[NSDate dateWithTimeIntervalSinceNow:0.1]];
     }
-}
+}*/
 
 - (void)testWebSocketConnectionClose {
     isTestingWebsocketConnectionClose = YES;
@@ -163,7 +163,7 @@
     }
 }
 
-- (void)testWebSocketSendMessage {
+/*- (void)testWebSocketSendMessage {
     isTestingWebsocketSendMessage = YES;
     [websocketTestHelper activateWebsocketHandler];
     while (isTestingWebsocketSendMessage) {
@@ -180,7 +180,7 @@
         [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode
                                  beforeDate:[NSDate dateWithTimeIntervalSinceNow:0.1]];
     }
-}
+}*/
 
 #pragma Utils unit tests
 - (void)testUtilsGenerateRandomString {
